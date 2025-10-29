@@ -79,7 +79,7 @@ body {
     transform: translateX(-50%);
     font-size: clamp(11px, 1.2vw, 28px); /* responsive size */
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.5;
     background: linear-gradient(
         90deg,
         #e7d8d9 0%,
@@ -98,7 +98,7 @@ body {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .happy-birthday-dkth {
         font-size: clamp(18px, 4vw, 32px);
     }
