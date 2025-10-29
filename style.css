@@ -79,7 +79,7 @@ body {
     transform: translateX(-50%);
     font-size: clamp(11px, 1.2vw, 28px); /* responsive size */
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 2;
     background: linear-gradient(
         90deg,
         #e7d8d9 0%,
