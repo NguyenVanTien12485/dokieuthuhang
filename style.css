@@ -74,7 +74,7 @@ body {
 .happy-birthday-dkth-sub {
     /* Gradient text using background-clip + transparent fill for best support */
     position: fixed;
-    top: 150px;
+    top: 120px;
     left: 50%;
     transform: translateX(-50%);
     font-size: clamp(11px, 1.2vw, 28px); /* responsive size */
