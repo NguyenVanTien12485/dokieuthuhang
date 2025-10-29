@@ -76,8 +76,9 @@ body {
     position: fixed;
     top: 150px;
     left: 50%;
+    text-align: center;
     transform: translateX(-50%);
-    font-size: clamp(14px, 1.8vw, 28px); /* responsive size */
+    font-size: clamp(11px, 1.8vw, 28px); /* responsive size */
     font-weight: 500;
     line-height: 1;
     background: linear-gradient(
