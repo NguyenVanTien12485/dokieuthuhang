@@ -74,7 +74,7 @@ body {
 .happy-birthday-dkth-sub {
     /* Gradient text using background-clip + transparent fill for best support */
     position: fixed;
-    top: 120px;
+    top: 150px;
     left: 50%;
     transform: translateX(-50%);
     font-size: clamp(11px, 1.2vw, 28px); /* responsive size */
@@ -96,6 +96,16 @@ body {
     white-space: nowrap;
     z-index: 500;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    .happy-birthday-dkth {
+        font-size: clamp(18px, 4vw, 32px);
+    }
+    .happy-birthday-dkth-sub {
+        top: 120px;
+        font-size: clamp(10px, 2.5vw, 20px);
+    }
 }
 
 .flowers {
