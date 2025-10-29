@@ -76,7 +76,6 @@ body {
     position: fixed;
     top: 150px;
     left: 50%;
-    text-align: center;
     transform: translateX(-50%);
     font-size: clamp(11px, 1.2vw, 28px); /* responsive size */
     font-weight: 500;
