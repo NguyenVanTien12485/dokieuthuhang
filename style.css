@@ -101,7 +101,6 @@ body {
 @media screen and (max-width: 450px) {
     .happy-birthday-dkth {
         font-size: clamp(18px, 4vw, 32px);
-        top: 80px;
         line-height: 1;
     }
     .happy-birthday-dkth-sub {
